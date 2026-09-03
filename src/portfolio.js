@@ -13,8 +13,7 @@ const seo = {
   og: {
     title: "Pavithran S Portfolio",
     type: "website",
-    // TODO: update once you know your final deploy URL (GitHub Pages default shown below)
-    url: "https://mr1823.github.io/Pavithran-Portfolio/",
+    url: "https://mr1823.github.io/Pavithran-Portfolio-2/",
   },
 };
 
@@ -24,7 +23,7 @@ const greeting = {
   logo_name: "PavithranS",
   nickname: "Pavi",
   subTitle:
-    "AI & Data Science Student · Founder, BuildWithUs · Building toward Zoho",
+    "AI & Data Science Student \u00b7 Founder, BuildWithUs \u00b7 Building toward Zoho",
   resumeLink:
     "https://drive.google.com/file/d/1kSkgSu4I-XqD5j7BJc7HRy-_c_1eu8vm/view?usp=sharing",
   portfolio_repository: "https://github.com/Mr1823/Pavithran-Portfolio-2",
@@ -58,9 +57,9 @@ const skills = {
       title: "AI Product Engineering",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Built the Intelligence Layer for RageRadar (a B2B SaaS) using Claude Haiku and Claude Sonnet",
-        "⚡ Led a Firebase-to-Supabase migration and set up GitHub MCP / Supabase MCP developer workflows",
-        "⚡ Experimenting with local LLMs via Ollama for personal AI-assistant projects",
+        "\u26a1 Built the Intelligence Layer for RageRadar (a B2B SaaS) using Claude Haiku and Claude Sonnet",
+        "\u26a1 Led a Firebase-to-Supabase migration and set up GitHub MCP / Supabase MCP developer workflows",
+        "\u26a1 Experimenting with local LLMs via Ollama for personal AI-assistant projects",
       ],
       softwareSkills: [
         {
@@ -77,9 +76,9 @@ const skills = {
       title: "Full Stack & Mobile Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building end-to-end MERN stack apps — React front ends, Node/Express APIs, MongoDB data layers",
-        "⚡ Shipping native Android apps in Java (Android Studio) and cross-platform apps in Flutter",
-        "⚡ Implementing JWT auth, Razorpay payments, and REST APIs for real client products at BuildWithUs",
+        "\u26a1 Building end-to-end MERN stack apps \u2014 React front ends, Node/Express APIs, MongoDB data layers",
+        "\u26a1 Shipping native Android apps in Java (Android Studio) and cross-platform apps in Flutter",
+        "\u26a1 Implementing JWT auth, Razorpay payments, and REST APIs for real client products at BuildWithUs",
       ],
       softwareSkills: [
         {
@@ -145,9 +144,9 @@ const skills = {
       title: "Tools, Databases & Cloud",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Managing MongoDB and Room DB (SQLite) data layers across web and Android projects",
-        "⚡ Daily dev workflow with Git, GitHub, and VS Code, working as a 4-person team",
-        "⚡ Integrating Razorpay payments, Cloudinary media storage, and Supabase into production apps",
+        "\u26a1 Managing MongoDB and Room DB (SQLite) data layers across web and Android projects",
+        "\u26a1 Daily dev workflow with Git, GitHub, and VS Code, working as a 4-person team",
+        "\u26a1 Integrating Razorpay payments, Cloudinary media storage, and Supabase into production apps",
       ],
       softwareSkills: [
         {
@@ -230,23 +229,37 @@ const degrees = {
     {
       title: "Kamaraj College of Engineering and Technology (KCET)",
       subtitle: "B.Tech in Artificial Intelligence & Data Science",
-      logo_path: "kcet_logo.png", // TODO: swap in the real KCET logo
+      logo_path: "kcet_logo.png",
       alt_name: "KCET, Anna University",
       duration: "2024 - 2028",
       descriptions: [
-        "⚡ Third-year student, affiliated with Anna University — CGPA 8.01/10",
-        "⚡ Core coursework: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks",
+        "\u26a1 Third-year student, affiliated with Anna University \u2014 CGPA 8.01/10",
+        "\u26a1 Core coursework: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks",
       ],
       website_link: "https://kamarajengg.edu.in",
+    },
+    {
+      title: "Veeramamunivar RC Hr. Sec. School, Tenkasi",
+      subtitle: "Higher Secondary Certificate (HSC - 12th)",
+      logo_path: "education.svg",
+      alt_name: "Veeramamunivar RC Hr. Sec. School",
+      duration: "",
+      descriptions: ["\u26a1 Scored 76%"],
+      website_link: "",
+    },
+    {
+      title: "Veeramamunivar RC Hr. Sec. School, Tenkasi",
+      subtitle: "Secondary School Leaving Certificate (SSLC - 10th)",
+      logo_path: "education.svg",
+      alt_name: "Veeramamunivar RC Hr. Sec. School",
+      duration: "",
+      descriptions: ["\u26a1 Scored 59.4%"],
+      website_link: "",
     },
   ],
 };
 
 const certifications = {
-  // Add entries once you have certificate_link + org logo for:
-  //   Cisco NetAcad (Intro to Modern AI, Data Analytics Essentials, Apply AI),
-  //   Anthropic certificate series, Microsoft AI Skills Fest.
-  // Each entry: { title, subtitle, logo_path, certificate_link, alt_name, color_code }
   certifications: [],
 };
 
@@ -255,7 +268,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internships and Freelance Work",
   description:
-    "I build production web and mobile products — as an AI Product Engineering Intern at Straw Labs, and as the founder of BuildWithUs, a freelance studio delivering client projects across the MERN stack, Flutter, and native Android.",
+    "I build production web and mobile products \u2014 as an AI Product Engineering Intern at Straw Labs, and as the founder of BuildWithUs, a freelance studio delivering client projects across the MERN stack, Flutter, and native Android.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -266,7 +279,7 @@ const experience = {
           title: "AI Product Engineering Intern",
           company: "Straw Labs (Genesis Cohort 01)",
           company_url: "https://www.strawlabs.in/",
-          logo_path: "strawlabs_logo.png", // TODO: swap in real logo
+          logo_path: "strawlabs_logo.png",
           duration: "June 2026 - September 2026",
           location: "Hybrid / Remote",
           description:
@@ -277,11 +290,11 @@ const experience = {
           title: "Frontend Development Intern",
           company: "Lamda Tech Softics",
           company_url: "https://in.linkedin.com/company/lamda-tech-softics",
-          logo_path: "lamdatechsoftics_logo.png", // TODO: swap in real logo
+          logo_path: "lamdatechsoftics_logo.png",
           duration: "December 2024 (15 days)",
           location: "Virudhunagar, Tamil Nadu",
           description:
-            "Completed a 15-day offline internship. Built an Instagram clone frontend — feed, profile, and stories UI — using HTML, CSS, and JavaScript.",
+            "Completed a 15-day offline internship. Built an Instagram clone frontend \u2014 feed, profile, and stories UI \u2014 using HTML, CSS, and JavaScript.",
           color: "#5A6377",
         },
       ],
@@ -293,11 +306,11 @@ const experience = {
           title: "Founder",
           company: "BuildWithUs",
           company_url: "https://www.buildwithus.co.in",
-          logo_path: "buildwithus_logo.png", // TODO: swap in real logo
+          logo_path: "buildwithus_logo.png",
           duration: "January 2025 - Present",
           location: "Tenkasi, Tamil Nadu",
           description:
-            "Founded and run a Udyam-registered freelance studio with three teammates, delivering paid web and mobile projects for retail clients end to end — requirements, build, QA, and handover. Built a MERN e-commerce platform for Sri Ram Jewellery with custom JWT auth and server-side Razorpay verification, and a Flutter retail/wholesale app for Manisha Fashions with phone+OTP login and a Node/Express/MongoDB backend.",
+            "Founded and run a Udyam-registered freelance studio with three teammates, delivering paid web and mobile projects for retail clients end to end \u2014 requirements, build, QA, and handover. Built a MERN e-commerce platform for Sri Ram Jewellery with custom JWT auth and server-side Razorpay verification, and a Flutter retail/wholesale app for Manisha Fashions with phone+OTP login and a Node/Express/MongoDB backend.",
           color: "#fca311",
         },
       ],
@@ -309,17 +322,16 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I build full-stack web apps, native Android apps, and AI-powered products using the MERN stack, Flutter, Java, and Python. Projects are auto-fetched from my GitHub.",
+    "A mix of freelance client builds, personal Android apps, and experiments across the MERN stack, Flutter, and local AI tooling.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Articles, blogs, and research — coming soon.",
+  description: "Articles and blogs I publish will appear here.",
   avatar_image_path: "projects_image.svg",
 };
 
-// Keep the section structure; add entries when you publish articles or blogs.
 const publications = {
   data: [],
 };
@@ -328,15 +340,14 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "pavithran_profile.png", // TODO: swap in your profile photo
+    profile_image_path: "pavithran_profile.png",
     description:
-      "I'm most responsive on LinkedIn and email. Feel free to reach out about freelance projects, collaborations, or anything related to full-stack development, Android, and AI.",
+      "I'm available on LinkedIn, GitHub, and email. I can help with full-stack web development, Android/Flutter apps, and AI-assisted product features \u2014 reach out and I'll get back to you within 24 hours.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "I plan to document my experiences building real products and learning AI — stay tuned.",
-    link: "", // TODO: add your blog URL when ready
+    subtitle: "Coming soon.",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -348,11 +359,11 @@ const contactPageData = {
     postalCode: "",
     streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/Tenkasi",
+    location_map_link: "",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 93637 50806",
+    title: "",
+    subtitle: "",
   },
 };
 

@@ -195,20 +195,19 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-// ── Premium Black ──────────────────────────────────────────────────────────────
-// A sleek, true-dark theme with gold accents — crafted for Pavi's portfolio.
+// Premium Black - custom dark theme with gold accents for Pavi's portfolio
 export const premiumBlackTheme = {
-  body: "#0A0A0A",          // near-black background
-  text: "#F0F0F0",          // crisp white text
-  expTxtColor: "#E0E0E0",   // slightly softer for body paragraphs
-  highlight: "#1A1A2E",     // dark navy cards / sections
-  dark: "#000000",           // true black for deepest elements
-  secondaryText: "#A0A0B0",  // muted silver for subtitles
-  imageHighlight: "#FCA311", // gold accent — icons, borders, hover
-  compImgHighlight: "#1E1E2F", // card backgrounds for competitive sites
-  jacketColor: "#FCA311",    // gold jacket on the avatar illustration
-  headerColor: "#FCA31133",  // translucent gold header underline
-  splashBg: "#000000",       // pure black splash screen
+  body: "#0A0A0A",
+  text: "#F0F0F0",
+  expTxtColor: "#E0E0E0",
+  highlight: "#1A1A2E",
+  dark: "#000000",
+  secondaryText: "#A0A0B0",
+  imageHighlight: "#FCA311",
+  compImgHighlight: "#1E1E2F",
+  jacketColor: "#FCA311",
+  headerColor: "#FCA31133",
+  splashBg: "#000000",
 };
 
 export const chosenTheme = premiumBlackTheme;
