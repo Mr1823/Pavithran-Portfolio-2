@@ -1,33 +1,105 @@
- # Pavithran Portfolio
+# Pavithran S — Portfolio
 
-Welcome to my personal portfolio website. This project showcases my skills, experience, selected work, and ways to get in touch.
+> **AI & Data Science Student · Founder, BuildWithUs · Building toward Zoho**
 
-## Overview
+My personal developer portfolio — built with React, styled-components, and a custom **Premium Black** theme.
 
-The portfolio is designed to provide a clear introduction to Pavithran and highlight projects, technical abilities, and professional interests through a clean, responsive interface.
+🔗 **Live:** [mr1823.github.io/Pavithran-Portfolio](https://mr1823.github.io/Pavithran-Portfolio/)
 
-## Features
+---
 
-- Responsive design for desktop, tablet, and mobile devices
-- About, skills, projects, and contact sections
-- Project highlights with relevant details and links
-- Modern, accessible user interface
+## ✨ What's Inside
 
-## Getting Started
+| Section        | Highlights                                                                  |
+| -------------- | --------------------------------------------------------------------------- |
+| **Home**       | Intro, tagline, resume download, social links                               |
+| **Skills**     | AI Product Engineering · Full Stack & Mobile Dev · Tools, Databases & Cloud |
+| **Education**  | B.Tech AI & Data Science — KCET, Anna University (2024–2028)                |
+| **Experience** | Straw Labs (AI Intern) · Lamda Tech Softics · BuildWithUs (Founder)         |
+| **Projects**   | Auto-fetched from GitHub via the data fetcher script                        |
+| **Contact**    | Email, LinkedIn, phone, location                                            |
 
-Clone the repository and open the project in your preferred development environment:
+## 🛠️ Tech Stack
+
+- **Frontend:** React 16, styled-components, React Router, React Reveal
+- **Theme:** Custom Premium Black (dark body + gold accents)
+- **Data:** GitHub GraphQL API for live project data
+- **Deployment:** GitHub Pages
+
+## 🚀 Getting Started
 
 ```bash
-git clone <repository-url>
+# Clone the repo
+git clone https://github.com/Mr1823/Pavithran-Portfolio-2.git
 cd Pavithran-Portfolio-2
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm start
 ```
 
-Install dependencies and start the development server using the commands supported by the project setup.
+The app runs at `http://localhost:3000`.
 
-## Customization
+## 📂 Project Structure
 
-Update the portfolio content, project information, images, and contact links to reflect your latest work and experience.
+```
+src/
+├── portfolio.js        # All personal data (edit this to customize)
+├── theme.js            # Color themes (Premium Black is active)
+├── components/         # Reusable UI components
+├── containers/         # Section containers (greeting, skills, etc.)
+├── pages/              # Route pages (experience, education, contact, etc.)
+├── assets/images/      # Logos, SVGs, and profile images
+└── shared/opensource/  # Auto-generated GitHub data (JSON)
+```
 
-## Contact
+## 📡 Fetching GitHub Projects
 
-For collaboration or professional inquiries, connect with Pavithran through the contact details provided on the portfolio website.
+To populate the Projects section with your repos:
+
+1. Create a `.env` file in the project root:
+   ```
+   GITHUB_TOKEN=your_github_personal_access_token
+   GITHUB_USERNAME=Mr1823
+   ```
+2. Generate a token at [github.com/settings/tokens](https://github.com/settings/tokens) (select `repo` scope)
+3. Run the fetcher:
+   ```bash
+   node git_data_fetcher.mjs
+   ```
+
+## 🎨 Changing the Theme
+
+Edit the last line of `src/theme.js`:
+
+```js
+// Switch to any theme: blueTheme, purpleTheme, materialDarkTheme, etc.
+export const chosenTheme = premiumBlackTheme;
+```
+
+## 📦 Build & Deploy
+
+```bash
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 📬 Contact
+
+- **Email:** [paviofficial18@gmail.com](mailto:paviofficial18@gmail.com)
+- **LinkedIn:** [linkedin.com/in/paviofficial](https://www.linkedin.com/in/paviofficial)
+- **GitHub:** [github.com/Mr1823](https://github.com/Mr1823)
+- **Phone:** +91 93637 50806
+
+## 📝 Credits
+
+Based on [masterPortfolio](https://github.com/ashutosh1919/masterPortfolio) by Ashutosh Hathidara — customized with personal data, Premium Black theme, and cleaned-up assets.
+
+## 📄 License
+
+[MIT](LICENSE)
