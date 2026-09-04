@@ -195,7 +195,7 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-// Premium Black - custom dark theme with gold accents for Pavi's portfolio
+// Premium Black - custom dark theme with gold accents
 export const premiumBlackTheme = {
   body: "#0A0A0A",
   text: "#F0F0F0",
@@ -210,4 +210,19 @@ export const premiumBlackTheme = {
   splashBg: "#000000",
 };
 
-export const chosenTheme = premiumBlackTheme;
+// Premium White - clean white theme with deep navy text and blue accents
+export const premiumWhiteTheme = {
+  body: "#FFFFFF",
+  text: "#1B2A4A",
+  expTxtColor: "#1A1A2E",
+  highlight: "#F0F4F8",
+  dark: "#0D1B2A",
+  secondaryText: "#5A6E8A",
+  imageHighlight: "#2563EB",
+  compImgHighlight: "#F0F4F8",
+  jacketColor: "#2563EB",
+  headerColor: "#2563EB33",
+  splashBg: "#1B2A4A",
+};
+
+export const chosenTheme = premiumWhiteTheme;
