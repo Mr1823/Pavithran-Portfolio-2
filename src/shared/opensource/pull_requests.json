@@ -1,1 +1,83 @@
-{"data": []}
+{
+  "closed": 0,
+  "data": [
+    {
+      "id": "PR_kwDOULji8c8AAAABB2FsSA",
+      "title": "Add test1.txt with initial content",
+      "url": "https://github.com/buildwith-us/Manisha-Fashions/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/226242211?u=d3da0864add69ae338b1baabac25c8e2e4b38bc9&v=4",
+        "url": "https://github.com/Mr1823",
+        "login": "Mr1823"
+      },
+      "createdAt": "2026-09-02T04:47:51Z",
+      "number": 2,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "Manisha-Fashions",
+        "url": "https://github.com/buildwith-us/Manisha-Fashions",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/300943246?v=4",
+          "login": "buildwith-us",
+          "url": "https://github.com/buildwith-us"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOULji8c8AAAABB2E1zQ",
+      "title": "developer1's testing file for push",
+      "url": "https://github.com/buildwith-us/Manisha-Fashions/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/226242211?u=d3da0864add69ae338b1baabac25c8e2e4b38bc9&v=4",
+        "url": "https://github.com/Mr1823",
+        "login": "Mr1823"
+      },
+      "createdAt": "2026-09-02T04:44:53Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "Manisha-Fashions",
+        "url": "https://github.com/buildwith-us/Manisha-Fashions",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/300943246?v=4",
+          "login": "buildwith-us",
+          "url": "https://github.com/buildwith-us"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOT1hf2c7-vOus",
+      "title": "Remove Firebase, add fake OTP and an optional wholesale price",
+      "url": "https://github.com/buildwith-us/Manisha-Fashions-Android-Application/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/226242211?u=d3da0864add69ae338b1baabac25c8e2e4b38bc9&v=4",
+        "url": "https://github.com/Mr1823",
+        "login": "Mr1823"
+      },
+      "createdAt": "2026-08-13T18:16:51Z",
+      "number": 1,
+      "changedFiles": 25,
+      "additions": 708,
+      "deletions": 1984,
+      "baseRepository": {
+        "name": "Manisha-Fashions-Android-Application",
+        "url": "https://github.com/buildwith-us/Manisha-Fashions-Android-Application",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/300943246?v=4",
+          "login": "buildwith-us",
+          "url": "https://github.com/buildwith-us"
+        }
+      }
+    }
+  ],
+  "merged": 3,
+  "open": 0,
+  "totalCount": 3
+}
